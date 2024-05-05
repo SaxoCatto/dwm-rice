@@ -7,3 +7,7 @@ Perfect timing for a broken PC to come into my life. Will work on more, and in a
 
 # How to use
 - Use the RTFM formula.
+
+# Patches
+- Will add to a different subfolder here.
+- Patch: patch -i ./path/to/patch.diff
