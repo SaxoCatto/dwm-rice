@@ -50,7 +50,7 @@ sudo make clean install # check the cli output
 - Yea, I will add an subfolder here for the pictures and videos. 
 
 ### Way I do things
-- Write scripts. Might have multiple versions for one specific feature.
-- Have one master file to control the features. Hence trying out 1 features but for multiple versions.
+- Write scripts. Might have multiple versions for one specific feature.Then I make one **master** file to control the features and versions.
 - Within dwmblock.c, I change the update interval and link to the script.
 - I put things in my <kbd>/.local/bin</kbd>, but you **MUST** source the absolute path.
+- The scripts for this dwm setup is in [`here`](https://github.com/SaxoCatto/Typewriting).
