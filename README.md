@@ -5,6 +5,7 @@
 ## Updates
 - I should be updating my `man` page at [`dwn.1`](https://github.com/SaxoCatto/dwm-rice/blob/main/dwm.1). Or you can look at it directly [`config.h`](https://github.com/SaxoCatto/dwm-rice/blob/main/config.h).
 - Some documentation might call <kbd>Winkey</kbd> as <kbd>Super</kbd>, <kbd>Enter</kbd> as <kbd>Return</kbd>. Also for dwm, <kbd>LeftAlt</kbd> as <kbd>Mod4</kbd>, <kbd>Super</kbd> as <kbd>Mod1</kbd>.
+- This is not my dream setup yet. Still workable. So when such time comes, I will notify.
 - Stay tuned for my script + config for Hyprland environment.
 - You might need libxft-bgra, but [this](https://aur.archlinux.org/packages/libxft-bgra/) doesn't seem to exist anymore.
 - How the fuck do I make it clickable now.
@@ -31,9 +32,12 @@ sudo make clean install # check the cli output
 - Clickable workspace and clickable windows tilting style.
 ## Patches
 - Patch: patch -i ./path/to/patch.diff
-- [`statuscmd`](https://dwm.suckless.org/patches/statuscmd/): core for the status bar 
-- systray
-- [`scratchpad`](https://dwm.suckless.org/patches/scratchpad/): spawn or restore a floating window
+- [`statuscmd`](https://dwm.suckless.org/patches/statuscmd/): core for the status bar. 
+- [`systray`](https://dwm.suckless.org/patches/systray/): adds a tray.
+- [`scratchpad`](https://dwm.suckless.org/patches/scratchpad/): spawn or restore a floating window.
+- [`cfact`](https://dwm.suckless.org/patches/cfacts/): different weights for different windows. You can now implement it, well I haven't do it in this config yet.
+- [`layoutmenu`](https://dwm.suckless.org/patches/layoutmenu/): adds a context menu in dwm. Right click layout icon.
+- [Riodraw]: can't seem to find it
 ## Binding
 - Open Dmenu: <kbd>Alt</kbd>+</kbd>D<kbd>
 - Open terminal (kitty is the default): <kbd>Alt</kbd>+<kbd>Enter</kbd>
